@@ -17,3 +17,6 @@ https://the-internet.herokuapp.com/login
 - Manual testing
 - Test case design
 - Functional testing
+
+Bug Reports: No defects found during this test cycle.
+Bug Report Template added for learning purposes.
