@@ -98,15 +98,3 @@ Secure-Page-Session-Management/
 * Security Testing (basic)
 * Bug Reporting
 * QA Logical Thinking
-
----
-
-## 📚 References
-
-* ISTQB – Test Case Design & Test Documentation
-* OWASP – Session Management Testing Guide
-* Guru99 – Manual Testing & Session Testing
-
----
-
-✅ This project demonstrates a strong foundation in **manual QA testing** and is suitable as a **junior QA portfolio project**.
