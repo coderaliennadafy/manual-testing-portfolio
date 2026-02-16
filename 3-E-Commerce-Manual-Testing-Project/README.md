@@ -1,5 +1,13 @@
 # 🛒 E-Commerce Manual Testing Project
 
+## 🌐 Test Environment
+
+Application Under Test (AUT): OpenCart Demo Store  
+URL: https://demo.opencart.com/  
+Platform Type: Web Application  
+Testing Type: Manual Testing  
+Domain: E-Commerce
+
 ## 📌 Project Overview
 This project focuses on manual testing of a simulated E-Commerce web application.  
 The objective is to validate functionality, usability, security basics, and business logic across key modules.
@@ -9,6 +17,9 @@ This project is part of my QA Manual Testing practice and portfolio development.
 ---
 
 ## 🎯 Project Objectives
+
+This project aims to perform comprehensive manual testing on an E-Commerce web application (OpenCart Demo Store), covering major modules such as Registration, Login, Product Management, Cart, Checkout, and Order Processing.
+
 - Validate core e-commerce functionalities
 - Apply functional and non-functional testing concepts
 - Practice writing professional test cases
