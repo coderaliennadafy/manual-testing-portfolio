@@ -47,3 +47,66 @@ This project is part of my QA Manual Testing practice and portfolio development.
 ---
 
 ## 📂 Project Structure
+
+
+---
+
+## 🚀 Current Focus: Registration Module
+
+### Scope of Registration Testing:
+- Required field validation
+- Email format validation
+- Password rules validation
+- Confirm password matching
+- Duplicate account handling
+- Boundary value testing
+- Basic security scenarios (SQL injection, script input)
+
+---
+
+## 📝 Test Case Structure Used
+
+Each test case includes:
+
+- Test Case ID
+- Title
+- Module
+- Preconditions
+- Steps
+- Test Data
+- Expected Result
+- Actual Result
+- Status
+- Priority
+
+---
+
+## 🐞 Bug Reporting
+
+All identified defects will be documented with:
+
+- Bug ID
+- Title
+- Environment
+- Steps to Reproduce
+- Expected Result
+- Actual Result
+- Severity
+- Priority
+- Status
+
+---
+
+## 📈 Project Progress
+
+Currently working on:
+> Registration Module – Foundation Phase
+
+Next step:
+> Complete Registration test cases before moving to Login module.
+
+---
+
+## 👨‍💻 Author
+Ali Ennadafy  
+Manual QA Enthusiast  
