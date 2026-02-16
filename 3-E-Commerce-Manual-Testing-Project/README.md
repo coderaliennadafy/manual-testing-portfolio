@@ -1,5 +1,8 @@
 # 🛒 E-Commerce Manual Testing Project
 
+Environment: OpenCart Demo Store (Non-Production Environment)
+Purpose: Manual Testing Practice
+
 ## 🌐 Test Environment
 
 Application Under Test (AUT): OpenCart Demo Store  
