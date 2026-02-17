@@ -126,3 +126,15 @@ Test environment is stable
 All planned test cases are executed
 All critical and high-severity defects are documented
 Test execution results are recorded
+
+5.5 Risks
+
+Add:
+
+5.6 Observations & Improvement Suggestions
+
+And you can later add things like:
+No password strength indicator
+No CAPTCHA
+Weak validation messages
+UX alignment issues
