@@ -55,10 +55,8 @@ Personal Details
 First Name (Required)
 Last Name (Required)
 Email (Required)
-Telephone (Required)
 Password Section
 Password (Required)
-Confirm Password (Required)
 Additional Options
 Newsletter Subscription (Optional – Yes / No)
 Privacy Policy Checkbox (Mandatory)
@@ -84,19 +82,12 @@ Must follow valid email format (example@mail.com
 Must be unique (duplicate accounts are not allowed)
 Email comparison is case-insensitive
 
-Telephone
-
-Must not be empty
-Must contain valid numeric input
-System behavior regarding special characters (+, -, spaces) will be validated during testing
-
 Password
 
 Must not be empty
 Must meet minimum length requirement (to be confirmed during testing)
 Must respect maximum length constraint
 No strict complexity enforcement observed in demo environment
-Confirm Password
 Must exactly match the Password field
 Comparison is case-sensitive
 
