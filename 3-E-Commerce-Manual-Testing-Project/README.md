@@ -71,7 +71,6 @@ This project aims to perform comprehensive manual testing on an E-Commerce web a
 - Required field validation
 - Email format validation
 - Password rules validation
-- Confirm password matching
 - Duplicate account handling
 - Boundary value testing
 - Basic security scenarios (SQL injection, script input)
