@@ -9,6 +9,7 @@ Environment Type: Non-Production (Demo)
 To verify that the User Registration functionality of the E-Commerce web application operates correctly, securely, and according to defined business requirements.
 
 2️⃣ Scope
+
 2.1 In Scope
 
 The following modules are covered under this test plan:
@@ -59,12 +60,14 @@ Platform Type: Web Application
 
 Environment: Demo / Non-Production
 
-Browser Used: (Specify your browser)
+Browser Used: google chrome
 
-Operating System: (Specify your OS)
+Operating System: windows
 
 5️⃣ Registration Module Analysis
+
 5.1 Fields Identified
+
 Personal Details
 
 First Name (Required)
@@ -88,6 +91,7 @@ Newsletter Subscription (Optional – Yes / No)
 Privacy Policy Checkbox (Mandatory)
 
 5.2 Business Rules
+
 First Name
 
 Must not be empty
