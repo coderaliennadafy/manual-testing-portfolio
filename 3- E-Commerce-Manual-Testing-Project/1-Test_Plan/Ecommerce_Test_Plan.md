@@ -1,10 +1,17 @@
+E-Commerce Website – Test Plan
+Module: User Registration
+
+Application Under Test: OpenCart Demo Store
+Environment Type: Non-Production (Demo)
+
 1️⃣ Objective
 
-Verify that the E-Commerce website functions correctly, securely, and meets business requirements.
+To verify that the User Registration functionality of the E-Commerce web application operates correctly, securely, and according to defined business requirements.
 
 2️⃣ Scope
+2.1 In Scope
 
-Modules to be tested:
+The following modules are covered under this test plan:
 
 User Registration
 
@@ -18,148 +25,164 @@ Checkout
 
 Order Management
 
-3️⃣ Test Types
+2.2 Out of Scope
+
+Payment gateway real transaction validation
+
+Performance testing
+
+Load testing
+
+Backend database validation
+
+3️⃣ Test Approach
+
+The Registration module will be tested using the following testing techniques:
 
 Functional Testing
 
 Validation Testing
 
-Boundary Testing
+Boundary Value Analysis
 
-Security Basic Testing
+Negative Testing
+
+Basic Security Testing
 
 UI Testing
 
-Negative Testing
+4️⃣ Test Environment
 
+Application: OpenCart Demo Store
 
-🔹Fields
+Platform Type: Web Application
 
-1-Personal Details               
+Environment: Demo / Non-Production
 
-First Name *
+Browser Used: (Specify your browser)
 
-Last Name *
+Operating System: (Specify your OS)
 
-Email *
+5️⃣ Registration Module Analysis
+5.1 Fields Identified
+Personal Details
 
-Telephone *
+First Name (Required)
 
-2-Password
+Last Name (Required)
 
-Password *
+Email (Required)
 
-Password Confirm *
+Telephone (Required)
 
-3-Newsletter
+Password Section
 
-Subscribe Yes / No (Radio button)
+Password (Required)
 
-4-Privacy Policy
+Confirm Password (Required)
 
-Checkbox “I agree to Privacy Policy” *
+Additional Options
 
-Expected Rules:
-(Business Rules)
+Newsletter Subscription (Optional – Yes / No)
 
-🔹 First Name
-Required
-Min length 1 or 2 char
-Max length (example 32 character)
-no espace 
+Privacy Policy Checkbox (Mandatory)
 
-🔹 Last Name
-Required
-Min length 1 or 2 char
-Max length (example 32 character)
-no espace 
+5.2 Business Rules
+First Name
 
-🔹 Email
-Required
-Format  (example@mail.com)
-Unrefined mail
-Case insensitive
+Must not be empty
 
-🔹Telephone Field
+Must respect minimum and maximum length constraints
 
-Required field (cannot be empty)
-Should contain numeric values
-May or may not accept:
-+ sign (for international numbers)
-Spaces
-Dashes (-)
+Must not contain only whitespace
 
-What you need to test:
-Only numbers → should be accepted
-Letters → should be rejected
-Special characters → should be rejected
-Very long number → check max length behavior
-Empty field → should show validation error
-This is called Validation Testing + Boundary Testing.
+Last Name
 
+Must not be empty
 
-🔹 Password Field
+Must respect minimum and maximum length constraints
 
-Expected Rules:
-Required
-Must meet minimum length
-Could be 4 characters (in demo)
-Could be 8 characters (in real systems)
-Has a maximum length
+Must not contain only whitespace
 
-Usually:
+Email
 
-No strict complexity rules in demo (no forced special characters)
-What you need to test:
-Less than minimum length → rejected
-Exactly minimum length → accepted
-Very long password → check system behavior
-Only spaces → should be rejected
-Common characters only → accepted
+Must not be empty
 
-This is:
+Must follow valid email format (example@mail.com
+)
 
-Validation Testing
-Boundary Value Analysis
+Must be unique (duplicate accounts are not allowed)
 
-🔹 Confirm Password Field
-Rule:
+Email comparison is case-insensitive
+
+Telephone
+
+Must not be empty
+
+Must contain valid numeric input
+
+System behavior regarding special characters (+, -, spaces) will be validated during testing
+
+Password
+
+Must not be empty
+
+Must meet minimum length requirement (to be confirmed during testing)
+
+Must respect maximum length constraint
+
+No strict complexity enforcement observed in demo environment
+
+Confirm Password
 
 Must exactly match the Password field
-Case-sensitive comparison (usually)
 
-What to test:
+Comparison is case-sensitive
 
-Matching passwords → accepted
-Different passwords → error message
-One field empty → error
-Trailing space difference → check behavior
+Privacy Policy
 
-This is:
+Must be selected before form submission
 
-Functional Testing
-Negative Testing
+Registration cannot proceed without acceptance
 
+5.3 Expected Success Flow
 
-## 4. Registration Module Analysis
+When valid data is submitted:
 
-### 4.1 Fields Identified
-- First Name (Required)
-- Last Name (Required)
-- Email (Required)
-- Telephone (Required)
-- Password (Required)
-- Confirm Password (Required)
-- Newsletter (Optional)
-- Privacy Policy (Mandatory Checkbox)
+The account is successfully created.
 
-### 4.2 Business Rules
-- Email must be unique
-- Password must meet minimum length
-- Confirm password must match
-- Privacy policy must be accepted
+User is redirected to the “Account Created” confirmation page.
 
-### 4.3 Expected Success Flow
-- Account created successfully
-- User redirected to success page
-- User automatically logged in
+User is automatically logged into the system.
+
+5.4 Assumptions
+
+Email verification is not required in the demo environment.
+
+CAPTCHA validation is not implemented.
+
+Demo data may reset periodically.
+
+5.5 Risks
+
+Demo environment may not reflect real production behavior.
+
+Server response time may vary.
+
+Data may be reset without notice.
+
+6️⃣ Entry Criteria
+
+Application is accessible
+
+Registration page is available
+
+Test environment is stable
+
+7️⃣ Exit Criteria
+
+All planned test cases are executed
+
+All critical and high-severity defects are documented
+
+Test execution results are recorded
