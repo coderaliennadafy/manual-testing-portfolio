@@ -6,7 +6,8 @@ Purpose: Manual Testing Practice
 ## 🌐 Test Environment
 
 Application Under Test (AUT): OpenCart Demo Store  
-URL: https://demo.opencart.com/  
+URL: https://demo.nopcommerce.com/ 
+
 Platform Type: Web Application  
 Testing Type: Manual Testing  
 Domain: E-Commerce
