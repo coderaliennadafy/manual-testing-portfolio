@@ -35,10 +35,10 @@ This project aims to perform comprehensive manual testing on an E-Commerce web a
 ## 🧩 Modules Covered
 
 | Module | Status |
-|--------|--------|
-| Registration | 🟡 In Progress |
-| Login | ⬜ Pending |
-| Logout & Session Expiry| ⬜ Pending |
+| :--- | :--- |
+| Registration | ✅ **Completed** |
+| Login | 🟡 **In Progress** |
+| Logout & Session Expiry | ⬜ Pending |
 | Product Listing | ⬜ Pending |
 | Product Details | ⬜ Pending |
 | Search & Filter | ⬜ Pending |
@@ -46,7 +46,7 @@ This project aims to perform comprehensive manual testing on an E-Commerce web a
 | Checkout | ⬜ Pending |
 | Order Confirmation | ⬜ Pending |
 | Order History | ⬜ Pending |
-| User Profile /Account Settings | ⬜ Pending |
+| User Profile / Account Settings | ⬜ Pending |
 
 ---
 
