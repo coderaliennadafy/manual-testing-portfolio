@@ -108,7 +108,10 @@ All identified defects will be documented with:
 - Severity
 - Priority
 - Status
-
+- Severity
+- Priority
+- Impact
+- Comment
 ---
 
 ## 📈 Project Progress
