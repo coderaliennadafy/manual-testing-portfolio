@@ -48,6 +48,31 @@ This project aims to perform comprehensive manual testing on an E-Commerce web a
 | Order History | ⬜ Pending |
 | User Profile / Account Settings | ⬜ Pending |
 
+
+Logout & Session Expiry Coverage
+📂 Sub-Module 1: Logout
+
+TC-LOG-01 → TC-LOG-17
+
+📂 Sub-Module 2: Session Expiry
+🔹 Idle Timeout
+
+TC-SES-01
+
+TC-SES-02
+
+TC-SES-03
+
+TC-SES-04
+
+🔹 Activity Reset
+
+TC-SES-05
+
+🔹 Background AJAX Behavior
+
+TC-SES-06
+
 ---
 
 ## 🧪 Testing Types Applied
