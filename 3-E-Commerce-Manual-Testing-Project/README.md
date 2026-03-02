@@ -12,6 +12,14 @@ Platform Type: Web Application
 Testing Type: Manual Testing  
 Domain: E-Commerce
 
+## 🗂 Test Data Strategy
+
+- Valid registered test account used for positive scenarios
+- Invalid credentials used for negative login testing
+- Expired session token captured for validation
+- Same account tested across multiple browser sessions
+- No real production data was used
+
 ## 📌 Project Overview
 This project focuses on manual testing of a simulated E-Commerce web application.  
 The objective is to validate functionality, usability, security basics, and business logic across key modules.
