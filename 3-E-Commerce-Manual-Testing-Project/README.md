@@ -3,14 +3,21 @@
 Environment: OpenCart Demo Store (Non-Production Environment)
 Purpose: Manual Testing Practice
 
-## 🌐 Test Environment
+🌐 Test Environment
 
 Application Under Test (AUT): OpenCart Demo Store  
-URL: https://demo.nopcommerce.com/ 
+URL: https://demo.nopcommerce.com/  
 
 Platform Type: Web Application  
-Testing Type: Manual Testing  
-Domain: E-Commerce
+Testing Type: Manual Functional & Session Testing  
+Domain: E-Commerce  
+
+Browser: Google Chrome (Latest Version)  
+Operating System: Windows 10  
+
+Tools Used:
+- Microsoft Excel (Test Case Documentation)
+- Chrome DevTools (for session inspection if used)
 
 ## 🗂 Test Data Strategy
 
