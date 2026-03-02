@@ -149,12 +149,17 @@ Next step:
 
 ---
 
-Requirement ID	Description	Test Cases
-R-01	User must logout securely	TC-LOG-01 → TC-LOG-05
-R-02	Session must be invalidated	TC-LOG-11, TC-LOG-12
-R-03	Protected pages require authentication	TC-LOG-04, TC-LOG-05
-R-04	Session must expire after inactivity	TC-SES-01
-R-05	Expired token must be rejected	TC-SES-08, TC-SES-09
+## 📌 Requirement Traceability Matrix
+
+| Requirement ID | Description | Related Test Cases |
+|---------------|-------------|-------------------|
+| R-01 | User must logout successfully | TC-LOG-01 → TC-LOG-05 |
+| R-02 | Session must be invalidated after logout | TC-LOG-11, TC-LOG-12 |
+| R-03 | Protected pages require authentication | TC-LOG-04, TC-LOG-05 |
+| R-04 | Session expires after inactivity | TC-SES-01 |
+| R-05 | Expired session token rejected | TC-SES-08, TC-SES-09 |
+
+---
 
 ## 👨‍💻 Author
 Ali Ennadafy  
