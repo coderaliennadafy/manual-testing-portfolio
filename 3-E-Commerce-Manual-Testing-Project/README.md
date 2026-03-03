@@ -1,16 +1,29 @@
 # 🛒 E-Commerce Manual Testing Project
 
-Environment: OpenCart Demo Store (Non-Production Environment)
 Purpose: Manual Testing Practice
 
-## 🌐 Test Environment
+🌐 Test Environment
 
-Application Under Test (AUT): OpenCart Demo Store  
-URL: https://demo.nopcommerce.com/ 
+URL: https://demo.nopcommerce.com/  
 
 Platform Type: Web Application  
-Testing Type: Manual Testing  
-Domain: E-Commerce
+Testing Type: Manual Functional & Session Testing  
+Domain: E-Commerce  
+
+Browser: Google Chrome (Latest Version)  
+Operating System: Windows 10  
+
+Tools Used:
+- Microsoft Excel (Test Case Documentation)
+- Chrome DevTools (for session inspection if used)
+
+## 🗂 Test Data Strategy
+
+- Valid registered test account used for positive scenarios
+- Invalid credentials used for negative login testing
+- Expired session token captured for validation
+- Same account tested across multiple browser sessions
+- No real production data was used
 
 ## 📌 Project Overview
 This project focuses on manual testing of a simulated E-Commerce web application.  
@@ -146,6 +159,18 @@ Currently working on:
 
 Next step:
 > Complete Registration test cases before moving to Login module.
+
+---
+
+## 📌 Requirement Traceability Matrix
+
+| Requirement ID | Description | Related Test Cases |
+|---------------|-------------|-------------------|
+| R-01 | User must logout successfully | TC-LOG-01 → TC-LOG-05 |
+| R-02 | Session must be invalidated after logout | TC-LOG-11, TC-LOG-12 |
+| R-03 | Protected pages require authentication | TC-LOG-04, TC-LOG-05 |
+| R-04 | Session expires after inactivity | TC-SES-01 |
+| R-05 | Expired session token rejected | TC-SES-08, TC-SES-09 |
 
 ---
 
