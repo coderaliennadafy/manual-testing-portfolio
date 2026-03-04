@@ -1,179 +1,275 @@
-# 🛒 E-Commerce Manual Testing Project
+🛒 E-Commerce Manual Testing Project
+📌 Purpose
 
-Purpose: Manual Testing Practice
+Manual end-to-end functional and session testing practice on a real-world E-Commerce demo application.
 
 🌐 Test Environment
 
-URL: https://demo.nopcommerce.com/  
+Application Under Test: https://demo.nopcommerce.com/
 
-Platform Type: Web Application  
-Testing Type: Manual Functional & Session Testing  
-Domain: E-Commerce  
+Platform Type: Web Application
 
-Browser: Google Chrome (Latest Version)  
-Operating System: Windows 10  
+Domain: E-Commerce
 
-Tools Used:
-- Microsoft Excel (Test Case Documentation)
-- Chrome DevTools (for session inspection if used)
+Testing Type: Manual Functional & Session Testing
 
-## 🗂 Test Data Strategy
+Browser: Google Chrome (Latest Version)
 
-- Valid registered test account used for positive scenarios
-- Invalid credentials used for negative login testing
-- Expired session token captured for validation
-- Same account tested across multiple browser sessions
-- No real production data was used
+Operating System: Windows 10
 
-## 📌 Project Overview
-This project focuses on manual testing of a simulated E-Commerce web application.  
-The objective is to validate functionality, usability, security basics, and business logic across key modules.
+🛠 Tools Used
 
-This project is part of my QA Manual Testing practice and portfolio development.
+Microsoft Excel (Test Case Documentation)
 
----
+Chrome DevTools (Session & Network Inspection)
 
-## 🎯 Project Objectives
+🗂 Test Data Strategy
 
-This project aims to perform comprehensive manual testing on an E-Commerce web application, covering major modules such as Registration, Login, Product Management, Cart, Checkout, and Order Processing.
+Valid registered test account for positive scenarios
 
-- Validate core e-commerce functionalities
-- Apply functional and non-functional testing concepts
-- Practice writing professional test cases
-- Create structured bug reports
-- Simulate real-world QA workflow
+Invalid credentials for negative login testing
 
----
+Expired session validation scenarios
 
-## 🧩 Modules Covered
+Same account tested across multiple browser sessions
 
-| Module | Status |
-| :--- | :--- |
-| Registration | ✅ **Completed** |
-| Login | ✅ **Completed** |
-| Logout & Session Expiry | ✅ **Completed** |
-| Product Listing | 🟡 **In Progress** |
-| Product Details | ⬜ Pending |
-| Search & Filter | ⬜ Pending |
-| Cart | ⬜ Pending |
-| Checkout | ⬜ Pending |
-| Order Confirmation | ⬜ Pending |
-| Order History | ⬜ Pending |
-| User Profile / Account Settings | ⬜ Pending |
+No real production data used
 
+📌 Project Overview
 
-Logout & Session Expiry Coverage
-📂 Sub-Module 1: Logout
+This project simulates real-world QA validation of an E-Commerce web application.
+
+It focuses on:
+
+Functional validation
+
+Session management verification
+
+Basic security checks
+
+Business logic validation
+
+Requirement traceability
+
+Structured defect documentation
+
+The objective is to replicate an industry-standard QA workflow including test design, execution, documentation, and reporting.
+
+🎯 Project Objectives
+
+Validate core e-commerce functionalities
+
+Apply functional and non-functional testing techniques
+
+Validate authentication & session handling
+
+Simulate real-world QA process
+
+Create structured test documentation & traceability
+
+🧩 Modules Covered
+Module	Status
+Registration	✅ Completed
+Login	✅ Completed
+Logout & Session Expiry	✅ Completed
+Product Listing	🟡 In Progress
+Product Details	⬜ Pending
+Search & Filter	⬜ Pending
+Cart	⬜ Pending
+Checkout	⬜ Pending
+Order Confirmation	⬜ Pending
+Order History	⬜ Pending
+User Profile / Account Settings	⬜ Pending
+🔐 Authentication & Session Coverage
+📂 Registration Coverage
+
+Required field validation
+
+Email format validation
+
+Password rule validation
+
+Duplicate account handling
+
+Boundary value analysis
+
+Basic security input validation
+
+📂 Login Coverage
+
+Valid login scenario
+
+Invalid credentials handling
+
+Error message validation
+
+Session creation verification
+
+📂 Logout & Session Expiry Coverage
+🔹 Logout
 
 TC-LOG-01 → TC-LOG-17
+Coverage includes:
 
-📂 Sub-Module 2: Session Expiry
-🔹 Idle Timeout
+Successful logout
 
-TC-SES-01
+Redirect validation
 
-TC-SES-02
+Session invalidation
 
-TC-SES-03
+Protected page access after logout
 
-TC-SES-04
+Console error monitoring
 
-🔹 Activity Reset
+Response time validation
+
+🔹 Session Expiry
+Idle Timeout
+
+TC-SES-01 → TC-SES-04
+
+Activity Reset
 
 TC-SES-05
 
-🔹 Background AJAX Behavior
+Background AJAX Behavior
 
 TC-SES-06
 
----
+Coverage includes:
 
-## 🧪 Testing Types Applied
+Session timeout behavior
 
-- Functional Testing
-- Negative Testing
-- Validation Testing
-- Boundary Value Analysis
-- Basic Security Testing
-- UI Testing
+Idle detection validation
 
----
+Protected endpoint rejection
 
-## 📂 Project Structure
+Token invalidation scenarios
 
+Multi-tab session handling
 
----
+🛍️ Product Listing Coverage (In Progress)
 
-## 🚀 Current Focus: Registration Module
+TC-PL-01 → TC-PL-XX
 
-### Scope of Registration Testing:
-- Required field validation
-- Email format validation
-- Password rules validation
-- Duplicate account handling
-- Boundary value testing
-- Basic security scenarios (SQL injection, script input)
+Coverage Areas:
 
----
+Page load validation
 
-## 📝 Test Case Structure Used
+Product data display validation
+
+Product image verification
+
+Price & discount validation
+
+Navigation to Product Details
+
+Add to Cart from listing
+
+Sorting functionality
+
+Filtering functionality
+
+Pagination behavior
+
+Empty category handling
+
+Out-of-stock display
+
+Console error validation
+
+Performance observation
+
+🧪 Testing Types Applied
+
+Functional Testing
+
+Negative Testing
+
+Validation Testing
+
+Boundary Value Analysis
+
+Basic Security Testing
+
+UI Testing
+
+Session Testing
+
+📝 Test Case Structure
 
 Each test case includes:
 
-- Test Case ID
-- Title
-- Module
-- Preconditions
-- Steps
-- Test Data
-- Expected Result
-- Actual Result
-- Status
-- Priority
+Test Case ID
 
----
+Title
 
-## 🐞 Bug Reporting
+Module
 
-All identified defects will be documented with:
+Preconditions
 
-- Bug ID
-- Title
-- Environment
-- Steps to Reproduce
-- Expected Result
-- Actual Result
-- Severity
-- Priority
-- Status
-- Severity
-- Priority
-- Impact
-- Comment
----
+Steps
 
-## 📈 Project Progress
+Test Data
 
-Currently working on:
-> Registration Module – Foundation Phase
+Expected Result
 
-Next step:
-> Complete Registration test cases before moving to Login module.
+Actual Result
 
----
+Status
 
-## 📌 Requirement Traceability Matrix
+Priority
 
-| Requirement ID | Description | Related Test Cases |
-|---------------|-------------|-------------------|
-| R-01 | User must logout successfully | TC-LOG-01 → TC-LOG-05 |
-| R-02 | Session must be invalidated after logout | TC-LOG-11, TC-LOG-12 |
-| R-03 | Protected pages require authentication | TC-LOG-04, TC-LOG-05 |
-| R-04 | Session expires after inactivity | TC-SES-01 |
-| R-05 | Expired session token rejected | TC-SES-08, TC-SES-09 |
+🐞 Bug Reporting Structure
 
----
+Each defect includes:
 
-## 👨‍💻 Author
-Ali Ennadafy  
-Manual QA Enthusiast  
+Bug ID
+
+Title
+
+Environment
+
+Steps to Reproduce
+
+Expected Result
+
+Actual Result
+
+Severity
+
+Priority
+
+Status
+
+Impact
+
+Comments
+
+📌 Requirement Traceability Matrix (RTM)
+Requirement ID	Description	Related Test Cases
+R-01	User must logout successfully	TC-LOG-01 → TC-LOG-05
+R-02	Session must be invalidated after logout	TC-LOG-11, TC-LOG-12
+R-03	Protected pages require authentication	TC-LOG-04, TC-LOG-05
+R-04	Session expires after inactivity	TC-SES-01
+R-05	Expired session token rejected	TC-SES-08, TC-SES-09
+📈 Project Status
+
+Current Focus:
+
+Completing Product Listing module with full functional & business validation coverage.
+
+Next Steps:
+
+Complete Product Details testing
+
+Expand coverage to Cart & Checkout
+
+Add API Testing layer (Postman)
+
+Enhance traceability & documentation
+
+👨‍💻 Author
+
+Ali Ennadafy
+Manual QA Engineer (In Progress Portfolio)
