@@ -35,7 +35,7 @@ This project is part of my QA Manual Testing practice and portfolio development.
 
 ## 🎯 Project Objectives
 
-This project aims to perform comprehensive manual testing on an E-Commerce web application (OpenCart Demo Store), covering major modules such as Registration, Login, Product Management, Cart, Checkout, and Order Processing.
+This project aims to perform comprehensive manual testing on an E-Commerce web application, covering major modules such as Registration, Login, Product Management, Cart, Checkout, and Order Processing.
 
 - Validate core e-commerce functionalities
 - Apply functional and non-functional testing concepts
