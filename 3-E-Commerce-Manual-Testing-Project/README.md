@@ -311,6 +311,22 @@ graph LR
 
 ---
 
+♿ Basic Accessibility Checks
+
+Basic accessibility checks were performed to ensure the application is usable for a wider range of users.
+
+Checks performed:
+
+Keyboard Navigation
+Verify that users can navigate the Product Listing page using the keyboard (Tab / Enter keys).
+Focus should move logically between elements.
+
+Image ALT Text
+Verify that product images contain meaningful ALT text for screen readers.
+
+Link Accessibility
+Product links should be descriptive and clickable.
+
 ## 📝 Test Case Structure
 
 Each test case follows industry-standard format:
