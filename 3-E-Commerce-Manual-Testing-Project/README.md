@@ -310,22 +310,35 @@ graph LR
 </table>
 
 ---
-
-♿ Basic Accessibility Checks
+## ♿ Basic Accessibility Checks
 
 Basic accessibility checks were performed to ensure the application is usable for a wider range of users.
 
 Checks performed:
 
-Keyboard Navigation
-Verify that users can navigate the Product Listing page using the keyboard (Tab / Enter keys).
-Focus should move logically between elements.
+* Verify product images contain meaningful **ALT text** for screen readers
+* Verify buttons are readable and clearly visible to users
+* Verify the page can be navigated using the **keyboard (Tab / Enter keys)**
+* Verify color contrast between text and background is readable
+* Verify product links are descriptive and clickable
 
-Image ALT Text
-Verify that product images contain meaningful ALT text for screen readers.
+## 🔐 Basic Security Checks
 
-Link Accessibility
-Product links should be descriptive and clickable.
+Some basic security observations performed during testing:
+
+- Verify that internal IDs are not unnecessarily exposed in the UI or URLs.
+- Verify that product prices cannot be modified from the client-side (browser DevTools).
+
+
+## 💼 Business Validation
+
+Basic business logic validations were performed on the Product Listing page to ensure correct product information and promotional behavior.
+
+Checks performed:
+
+* Verify product count displayed on the page matches the actual number of products shown
+* Verify discount badge appears only when a product has a valid discount
+* Verify product price is displayed correctly when a discount is applied
 
 ## 📝 Test Case Structure
 
