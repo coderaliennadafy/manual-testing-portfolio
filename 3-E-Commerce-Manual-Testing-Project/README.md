@@ -520,9 +520,6 @@ Comments: [Additional notes]
 ---
 
 ## 👨‍💻 Author
-Ali Ennadafy  
-Manual QA Enthusiast  
-=======
 
 <div align="center">
 
