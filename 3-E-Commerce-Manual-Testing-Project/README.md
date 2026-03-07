@@ -100,7 +100,7 @@ This project demonstrates **professional manual QA testing** on a real-world E-C
 | 🚪 **Logout & Session** | TC-LOG-01 → TC-LOG-17 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
 | ⏰ **Session Expiry** | TC-SES-01 → TC-SES-09 | ![](https://img.shields.io/badge/✅-Completed-success) | 🟠 Medium | 100% |
 | 📦 **Product Listing** | TC-PL-01 → TC-PL-45 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
-| 🔍 **Product Details** | TC-PD-01 → TC-PD-XX | ![](https://img.shields.io/badge🔄-In%20Progress-yellow) |🔴 High | 0% |
+| 🔍 **Product Details** | TC-PD-01 to TC-PD-XX | ![](https://img.shields.io/badge/Status-In%20Progress-yellow) | ![](https://img.shields.io/badge/Priority-High-red) | 0% |
 | 🔎 **Search & Filter** | TC-SF-01 → TC-SF-XX | ![](https://img.shields.io/badge/⏳-Pending-lightgrey) | 🟠 Medium | 0% |
 | 🛒 **Shopping Cart** | TC-CART-01 → TC-CART-XX | ![](https://img.shields.io/badge/⏳-Pending-lightgrey) | 🔴 High | 0% |
 | 💳 **Checkout** | TC-CHK-01 → TC-CHK-XX | ![](https://img.shields.io/badge/⏳-Pending-lightgrey) | 🔴 High | 0% |
