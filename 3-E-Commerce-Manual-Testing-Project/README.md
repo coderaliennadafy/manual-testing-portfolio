@@ -105,7 +105,7 @@ This project demonstrates **professional manual QA testing** on a real-world E-C
 | 🛒 **Shopping Cart** | TC-CART-01 → TC-CART-15 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
 | 💳 **Checkout** | TC-CHK-01 → TC-CHK-14 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
 | ✅ **Order Confirmation** | TC_01 → TC_09 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
-| 📜 **Order History** | TC-OH-01 → TC-OH-XX | ![](https://img.shields.io/badge/Status-In%20Progress-yellow) | 🟡 Low | 0% |
+| 📜 **Order History** | TC-OH-01 → TC-OH-13 | ![](https://img.shields.io/badge/Status-In%20Progress-yellow) | 🟡 Low | 0% |
 | 👤 **User Profile** | TC-UP-01 → TC-UP-XX | ![](https://img.shields.io/badge/⏳-Pending-lightgrey) | 🟡 Low | 0% |
 
 
