@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🛒 E-Commerce Manual Testing Project
+#  E-Commerce Manual Testing Project
 
 <img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Testing%20Type-Manual-blue?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Domain-E--Commerce-orange?style=for-the-badge" />
 
-### 🎯 End-to-End Manual Testing on Real-World E-Commerce Application
+###  End-to-End Manual Testing on Real-World E-Commerce Application
 
 *Simulating industry-level QA workflow with comprehensive test coverage*
 
@@ -14,21 +14,21 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
-- [🌐 Application Under Test](#-application-under-test)
-- [🎯 Project Overview](#-project-overview)
-- [🧩 Test Coverage](#-test-coverage)
-- [🛠 Tools & Environment](#-tools--environment)
-- [📊 Testing Approach](#-testing-approach)
-- [📈 Project Status](#-project-status)
-- [🐞 Defect Management](#-defect-management)
-- [📌 Key Achievements](#-key-achievements)
-- [👨‍💻 Author](#-author)
+- [ Application Under Test](#-application-under-test)
+- [ Project Overview](#-project-overview)
+- [ Test Coverage](#-test-coverage)
+- [ Tools & Environment](#-tools--environment)
+- [ Testing Approach](#-testing-approach)
+- [ Project Status](#-project-status)
+- [ Defect Management](#-defect-management)
+- [ Key Achievements](#-key-achievements)
+- [ Author](#-author)
 
 ---
 
-## 🌐 Application Under Test
+##  Application Under Test
 
 <div align="center">
 
@@ -45,7 +45,7 @@
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project demonstrates **professional manual QA testing** on a real-world E-Commerce platform. The testing simulates an industry-standard QA workflow, covering:
 
@@ -58,7 +58,7 @@ This project demonstrates **professional manual QA testing** on a real-world E-C
 ✅ Requirement Traceability
 ```
 
-### 🎯 Key Objectives
+###  Key Objectives
 
 <table>
 <tr>
@@ -74,10 +74,10 @@ This project demonstrates **professional manual QA testing** on a real-world E-C
 <td width="50%">
 
 **Portfolio Goals**
-- 📚 Build professional QA portfolio
-- 📝 Document real-world experience
-- 🎯 Demonstrate QA methodology
-- 💼 Showcase technical skills
+-  Build professional QA portfolio
+-  Document real-world experience
+-  Demonstrate QA methodology
+-  Showcase technical skills
 
 </td>
 </tr>
@@ -85,38 +85,38 @@ This project demonstrates **professional manual QA testing** on a real-world E-C
 
 ---
 
-## 🧩 Test Coverage
+##  Test Coverage
 
 <div align="center">
 
-### 📊 Module Testing Status
+###  Module Testing Status
 
 </div>
 
 | Module | Test Cases | Status | Priority | Coverage |
 |--------|-----------|--------|----------|----------|
-| 🔐 **Registration** | TC-REG-01 → TC-REG-40 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
-| 🔑 **Login** | TC-LG-01 → TC-LG-38 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
-| 🚪 **Logout & Session** | TC-LOG-01 → TC-LOG-17 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
-| ⏰ **Session Expiry** | TC-SES-01 → TC-SES-09 | ![](https://img.shields.io/badge/✅-Completed-success) | 🟠 Medium | 100% |
-| 📦 **Product Listing** | TC-PL-01 → TC-PL-45 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
-| 🔍 **Product Details** | TC-PD-01 to TC-PD-20 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
-| 🔎 **Search & Filter** | TC-SF-01 → TC-SF-20 | ![](https://img.shields.io/badge/✅-Completed-success) | 🟠 Medium | 100% |
-| 🛒 **Shopping Cart** | TC-CART-01 → TC-CART-15 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
-| 💳 **Checkout** | TC-CHK-01 → TC-CHK-14 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
-| ✅ **Order Confirmation** | TC_01 → TC_09 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
-| 📜 **Order History** | TC-OH-01 → TC-OH-19 | ![](https://img.shields.io/badge/✅-Completed-success) | 🟡 Low | 100% |
-| 👤 **User Profile** | TC-UP-01 → TC-UP-XX | ![](https://img.shields.io/badge/Status-In%20Progress-yellow) | 🟡 Low | 0% |
+|  **Registration** | TC-REG-01 → TC-REG-40 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
+|  **Login** | TC-LG-01 → TC-LG-38 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
+|  **Logout & Session** | TC-LOG-01 → TC-LOG-17 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
+|  **Session Expiry** | TC-SES-01 → TC-SES-09 | ![](https://img.shields.io/badge/✅-Completed-success) | 🟠 Medium | 100% |
+|  **Product Listing** | TC-PL-01 → TC-PL-45 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
+|  **Product Details** | TC-PD-01 to TC-PD-20 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
+|  **Search & Filter** | TC-SF-01 → TC-SF-20 | ![](https://img.shields.io/badge/✅-Completed-success) | 🟠 Medium | 100% |
+|  **Shopping Cart** | TC-CART-01 → TC-CART-15 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
+|  **Checkout** | TC-CHK-01 → TC-CHK-14 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
+|  **Order Confirmation** | TC_01 → TC_09 | ![](https://img.shields.io/badge/✅-Completed-success) | 🔴 High | 100% |
+|  **Order History** | TC-OH-01 → TC-OH-19 | ![](https://img.shields.io/badge/✅-Completed-success) | 🟡 Low | 100% |
+|  **User Profile** | TC-UP-01 → TC-UP-XX | ![](https://img.shields.io/badge/Status-In%20Progress-yellow) | 🟡 Low | 0% |
 
 
 </div>
 
 ---
 
-## 🔐 Authentication & Session Testing
+##  Authentication & Session Testing
 
 <details>
-<summary><b>📂 Registration Module (Completed)</b></summary>
+<summary><b> Registration Module (Completed)</b></summary>
 
 ### Test Scenarios Covered:
 - ✅ Required field validation
@@ -131,7 +131,7 @@ This project demonstrates **professional manual QA testing** on a real-world E-C
 </details>
 
 <details>
-<summary><b>📂 Login Module (Completed)</b></summary>
+<summary><b> Login Module (Completed)</b></summary>
 
 ### Test Scenarios Covered:
 - ✅ Valid login scenario
@@ -146,7 +146,7 @@ This project demonstrates **professional manual QA testing** on a real-world E-C
 </details>
 
 <details>
-<summary><b>📂 Logout & Session Module (Completed)</b></summary>
+<summary><b> Logout & Session Module (Completed)</b></summary>
 
 ### Test Cases: TC-LOG-01 → TC-LOG-17
 
@@ -164,7 +164,7 @@ This project demonstrates **professional manual QA testing** on a real-world E-C
 </details>
 
 <details>
-<summary><b>📂 Session Expiry Module (Completed)</b></summary>
+<summary><b> Session Expiry Module (Completed)</b></summary>
 
 ### Test Cases: TC-SES-01 → TC-SES-09
 
@@ -181,10 +181,10 @@ This project demonstrates **professional manual QA testing** on a real-world E-C
 
 ---
 
-## 🛍️ E-Commerce Flow Testing
+##  E-Commerce Flow Testing
 
 <details>
-<summary><b>📦 Product Listing Module (In Progress - 60%)</b></summary>
+<summary><b> Product Listing Module (In Progress - 60%)</b></summary>
 
 ### Test Cases: TC-PL-01 → TC-PL-XX
 
@@ -209,16 +209,16 @@ This project demonstrates **professional manual QA testing** on a real-world E-C
 </details>
 
 <details>
-<summary><b>🔍 Upcoming Modules</b></summary>
+<summary><b> Upcoming Modules</b></summary>
 
 ### Next in Pipeline:
-- 📋 Product Details Page
-- 🔎 Search & Filter Functionality
-- 🛒 Shopping Cart Operations
-- 💳 Checkout Process
-- ✅ Order Confirmation
-- 📜 Order History
-- 👤 User Profile Management
+-  Product Details Page
+-  Search & Filter Functionality
+-  Shopping Cart Operations
+-  Checkout Process
+-  Order Confirmation
+-  Order History
+-  User Profile Management
 
 </details>
 
@@ -238,26 +238,26 @@ This project demonstrates **professional manual QA testing** on a real-world E-C
 
 <table align="center">
 <tr>
-<td align="center"><b>📝 Documentation</b></td>
+<td align="center"><b> Documentation</b></td>
 <td>Microsoft Excel</td>
 </tr>
 <tr>
-<td align="center"><b>🔍 Debugging</b></td>
+<td align="center"><b> Debugging</b></td>
 <td>Chrome DevTools (Network & Console)</td>
 </tr>
 <tr>
-<td align="center"><b>🌐 Browser</b></td>
+<td align="center"><b> Browser</b></td>
 <td>Google Chrome (Latest Version)</td>
 </tr>
 <tr>
-<td align="center"><b>💻 Operating System</b></td>
+<td align="center"><b> Operating System</b></td>
 <td>Windows 10</td>
 </tr>
 </table>
 
 ---
 
-## 📊 Testing Approach
+##  Testing Approach
 
 <div align="center">
 
@@ -272,7 +272,7 @@ graph LR
 
 </div>
 
-### 🧪 Testing Types Applied
+###  Testing Types Applied
 
 <table>
 <tr>
@@ -307,7 +307,7 @@ graph LR
 </table>
 
 ---
-## ♿ Basic Accessibility Checks
+##  Basic Accessibility Checks
 
 Basic accessibility checks were performed to ensure the application is usable for a wider range of users.
 
@@ -319,7 +319,7 @@ Checks performed:
 * Verify color contrast between text and background is readable
 * Verify product links are descriptive and clickable
 
-## 🔐 Basic Security Checks
+##  Basic Security Checks
 
 Some basic security observations performed during testing:
 
@@ -327,7 +327,7 @@ Some basic security observations performed during testing:
 - Verify that product prices cannot be modified from the client-side (browser DevTools).
 
 
-## 💼 Business Validation
+##  Business Validation
 
 Basic business logic validations were performed on the Product Listing page to ensure correct product information and promotional behavior.
 
@@ -337,7 +337,7 @@ Checks performed:
 * Verify discount badge appears only when a product has a valid discount
 * Verify product price is displayed correctly when a discount is applied
 
-## 📝 Test Case Structure
+##  Test Case Structure
 
 Each test case follows industry-standard format:
 
@@ -357,7 +357,7 @@ Comments: [Additional notes]
 
 ---
 
-## 🐞 Defect Management
+##  Defect Management
 
 ### Bug Report Structure
 
@@ -402,7 +402,7 @@ Comments: [Additional notes]
 
 ---
 
-## 📌 Requirement Traceability Matrix (RTM)
+##  Requirement Traceability Matrix (RTM)
 
 <details>
 <summary><b>View RTM</b></summary>
@@ -419,23 +419,23 @@ Comments: [Additional notes]
 
 ---
 
-## 🔎 Risk Areas Identified
+##  Risk Areas Identified
 
 <div align="center">
 
 | Risk Area | Impact | Mitigation |
 |-----------|--------|------------|
-| 🔐 Authentication Security | High | Comprehensive session testing |
-| 💰 Pricing Logic Errors | Critical | Extensive boundary testing |
-| 🛒 Cart Data Integrity | High | Multi-scenario validation |
-| 💳 Payment Processing | Critical | Detailed checkout testing |
-| 🔄 Session Management | Medium | Timeout & multi-tab testing |
+|  Authentication Security | High | Comprehensive session testing |
+|  Pricing Logic Errors | Critical | Extensive boundary testing |
+|  Cart Data Integrity | High | Multi-scenario validation |
+|  Payment Processing | Critical | Detailed checkout testing |
+|  Session Management | Medium | Timeout & multi-tab testing |
 
 </div>
 
 ---
 
-## 📈 Project Status
+##  Project Status
 
 <div align="center">
 
@@ -461,7 +461,7 @@ Comments: [Additional notes]
 
 ---
 
-## 📌 Key Achievements
+##  Key Achievements
 
 <div align="center">
 
@@ -476,7 +476,7 @@ Comments: [Additional notes]
 
 ---
 
-## 📚 What I Learned
+##  What I Learned
 
 <table>
 <tr>
@@ -505,7 +505,7 @@ Comments: [Additional notes]
 
 ---
 
-## 🎯 Future Enhancements
+##  Future Enhancements
 
 - 🔄 Add API Testing with Postman
 - 🔄 Implement Automated Test Scripts
@@ -515,7 +515,7 @@ Comments: [Additional notes]
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 <div align="center">
 
@@ -532,7 +532,7 @@ Comments: [Additional notes]
 
 <div align="center">
 
-### 💡 Project Notes
+###  Project Notes
 
 *This is a portfolio project demonstrating manual QA testing skills on a publicly available demo application. No production data or real payment information was used. All testing was performed in accordance with ethical testing practices.*
 
@@ -540,6 +540,6 @@ Comments: [Additional notes]
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
-**⭐ If you found this project interesting, please consider giving it a star!**
+**If you found this project interesting, please consider giving it a star!**
 
 *Last Updated: March 2026*
