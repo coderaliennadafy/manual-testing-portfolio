@@ -224,11 +224,11 @@ This project demonstrates **professional manual QA testing** on a real-world E-C
 
 ---
 
-## 🛠 Tools & Environment
+##  Tools & Environment
 
 <div align="center">
 
-### 🔧 Testing Tools
+###  Testing Tools
 
 ![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Chrome DevTools](https://img.shields.io/badge/Chrome%20DevTools-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)
