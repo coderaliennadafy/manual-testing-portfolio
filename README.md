@@ -1,7 +1,7 @@
 <div align="center">
 
 #  Manual Testing Portfolio
-### Ali Ennadafy — QA Engineer
+### Ali Ennadafy — Manual QA Engineer
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_LINKEDIN)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aennadafy@gmail.com)
