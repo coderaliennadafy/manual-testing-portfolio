@@ -7,7 +7,7 @@
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aennadafy@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/coderaliennadafy)
 
-*Aspiring QA Engineer | Manual Testing Specialist | Passionate about Software Quality*
+*Manual QA Engineer | Manual Testing Specialist | Passionate about Software Quality*
 
 </div>
 
