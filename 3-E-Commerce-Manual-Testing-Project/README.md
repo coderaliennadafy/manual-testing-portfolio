@@ -2,7 +2,7 @@
 
 #  E-Commerce Manual Testing Project
 
-<img src="https://img.shields.io/badge/Status-In%20Completed-yellow?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Status-%20Completed-yellow?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Testing%20Type-Manual-blue?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Domain-E--Commerce-orange?style=for-the-badge" />
 
