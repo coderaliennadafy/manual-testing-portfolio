@@ -197,7 +197,7 @@ No defects found during this test cycle. All validation messages and authenticat
 
 - [ ] **API Testing** — Postman collection for nopCommerce API endpoints
 - [ ] **Performance Testing** — JMeter load tests on key flows
-- [ ] **Test Automation** — Selenium + Python framework for regression suite
+- [ ] **Test Automation** — Playwright + Javascript framework for regression suite
 - [ ] **CI/CD Integration** — Automated test runs on GitHub Actions
 
 ---
